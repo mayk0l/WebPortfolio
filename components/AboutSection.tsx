@@ -36,32 +36,17 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              💡 Llevo 3 años programando y durante ese tiempo me he enfocado en
-              dominar el lenguaje JavaScript y sus diversas tecnologías
-              asociadas, como Node.js y React.js. A través de proyectos
-              personales y académicos, he adquirido experiencia práctica en el
-              desarrollo de aplicaciones web interactivas y escalables. ✨
+              💡 Con 3 años de experiencia, dominé JavaScript y tecnologías como
+              Node.js y React.js. Desarrollé aplicaciones web interactivas y
+              escalables.
             </p>
+
             <br />
             <p>
-              💪 Mi enfoque se centra en escribir código limpio y eficiente,
-              utilizando las mejores prácticas de programación. Me encanta
-              resolver problemas y encontrar soluciones creativas utilizando la
-              potencia de JavaScript. 🔧
-            </p>
-            <br />
-            <p>
-              🌱 Siempre estoy aprendiendo y manteniéndome al día con las
-              tendencias emergentes en el campo del desarrollo web. Me emociona
-              explorar nuevas posibilidades y poner en práctica mis habilidades
-              para crear experiencias web excepcionales. 🚀
-            </p>
-            <br />
-            <p>
-              🤝 Si estás buscando un desarrollador JavaScript comprometido y
-              apasionado, ¡estoy aquí para colaborar contigo y llevar tu
-              proyecto al siguiente nivel! Trabajemos juntos para convertir tus
-              ideas en realidad. 👨‍💻
+              🌱 Siempre aprendo y me mantengo actualizado. Me apasiona
+              encontrar soluciones creativas y colaborar en proyectos para crear
+              experiencias excepcionales. ¡Trabajemos juntos para llevar tu
+              proyecto al siguiente nivel! 👨‍💻
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -79,11 +64,11 @@ const AboutSection = () => {
               })}
             </div>
             <Image
-              src="/hero-image.png"
-              alt=""
-              width={325}
-              height={325}
-              className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
+              src="/herophoto.png"
+              alt="herophoto"
+              width={400}
+              height={400}
+              className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0 w-auto"
             />
           </div>
         </div>

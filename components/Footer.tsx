@@ -1,7 +1,6 @@
 import React from "react"
 import {
   AiOutlineGithub,
-  AiOutlineTwitter,
   AiOutlineLinkedin,
   AiOutlineInstagram,
 } from "react-icons/ai"
@@ -21,19 +20,9 @@ const Footer = () => {
               size={30}
             />
           </a>
-          <a
-            href="https://twitter.com/hqasmei"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineTwitter
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-              size={30}
-            />
-          </a>
 
           <a
-            href="https://www.linkedin.com/in/hosnaqasmei/"
+            href="https://www.linkedin.com/in/maykol-salgado-ramos/"
             rel="noreferrer"
             target="_blank"
           >
@@ -43,7 +32,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="https://www.instagram.com/999maykol/"
+            href="https://www.instagram.com/maykol_dev/"
             rel="noreferrer"
             target="_blank"
           >

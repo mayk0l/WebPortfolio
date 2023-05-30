@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl mb-32">
+    <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl mb-20">
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
