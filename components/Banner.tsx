@@ -14,8 +14,8 @@ function Banner() {
       </div>
 
       <p className="mt-24 md:mt-2 text-gray-400 max-w-sm">
-        Explorando la tecnología, desarrollo web, programación y últimas
-        tendencias
+        Blog de Tecnología, Últimas Tendencias, Noticias Tecnológicas,
+        Desarrollo Web, Programación, Diseño UX/UI
       </p>
     </div>
   );

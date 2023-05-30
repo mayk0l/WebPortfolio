@@ -14,8 +14,8 @@ const query = groq`
 export const revalidate = 30;
 
 export const metadata = {
-  title: "Blog",
-  description: "...",
+  title: "Blog de Tecnología | Maykol Salgado",
+  description: "Sumérgete en mi blog de tecnología y descubre artículos informativos sobre las últimas tendencias, noticias y consejos en el mundo de la tecnología. Explora temas como desarrollo web, programación, diseño UX/UI y más.",
 };
 
 
