@@ -14,7 +14,7 @@ const query = groq`
 export const revalidate = 30;
 
 export const metadata = {
-  title: "Mi Blog",
+  title: "Blog",
   description: "...",
 };
 
