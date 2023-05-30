@@ -10,11 +10,11 @@ type Props = {
 function BlogList({ posts }: Props) {
   return (
     <div>
-      <hr className="border-[#F7AB0A] mb-10"></hr>
+      <hr className="border-[#319795] mb-10"></hr>
 
       <div className="grid grid-cols-1 md:grid-cols-2 px-10 gap-10 gap-y-16 pb-24">
         {posts.map((post) => (
-          <ClientSideRoute key={post._id} route={`/post/${post.slug.current}`}>
+          <ClientSideRoute key={post._id} route={`/blog/post/${post.slug.current}`}>
             <div className="flex flex-col group cursor-pointer">
               <div className="relative w-full h-80 drop-shadow-xl group-hover:scale-105 transition-transform duration-200 ease-out">
                 <Image
@@ -39,7 +39,7 @@ function BlogList({ posts }: Props) {
                     {post.categories.map((category) => (
                       <div
                         key={category._id}
-                        className="bg-[#F7AB0A] text-center text-black px-3 py-1 rounded-full text-sm font-semibold"
+                        className="bg-[#319795] text-center text-black px-3 py-1 rounded-full text-sm font-semibold"
                       >
                         <p>{category.title}</p>
                       </div>

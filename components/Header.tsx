@@ -1,3 +1,4 @@
+import { ArrowUturnLeftIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -5,7 +6,7 @@ function Header() {
   return (
     <header className="flex items-center justify-between space-between space-x-2 font-bold px-10 py-5">
       <div className="flex items-center space-x-2">
-        <Link href="/">
+        <Link href="/blog">
           <Image
             className="rounded-full"
             src="/logo.jpg"
@@ -16,7 +17,12 @@ function Header() {
         </Link>
         <h1>Maykol Salgado</h1>
       </div>    
-
+      <div className="flex items-center justify-between p-4">
+        <Link href="/home" className="text-[#319795] flex items-">
+          <ArrowUturnLeftIcon className="w-6 h-6 text-[#319795] mr-2" />
+          Volver al inicio
+        </Link>
+      </div>
       <div>
         <Link
           href="https://www.maykol-salgado.cl"
