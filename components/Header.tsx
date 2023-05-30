@@ -26,7 +26,7 @@ function Header() {
       <div>
         <Link
           href="https://www.maykol-salgado.cl"
-          className="px-5 py-3 text-sm md:text-base bg-gray-900 text-[#F8F9F9] flex items-center rounded-full text-center"
+          className="px-5 py-3 text-sm md:text-base bg-teal-600 hover:bg-teal-700 text-[#F8F9F9] flex items-center rounded-full text-center"
         >
           Contactame
         </Link>
