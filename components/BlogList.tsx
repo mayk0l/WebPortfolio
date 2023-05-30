@@ -52,7 +52,7 @@ function BlogList({ posts }: Props) {
                 <p className="underline text-lg font-bold">{post.title}</p>
               </div>
               <div className="mt-5 flex-1">
-                <p className="text-sm text-gray-600">{post.description}</p>
+                <p className="text-sm text-gray-600 dark:text-white">{post.description}</p>
               </div>
 
               <p className="mt-5 font-bold flex items-center group-hover:underline">
