@@ -18,7 +18,7 @@ function Header() {
         <h1>Maykol Salgado</h1>
       </div>    
       <div className="flex items-center justify-between p-4">
-        <Link href="/home" className="text-[#F8F9F9] flex items-">
+        <Link href="/home" className="flex items-center">
           <ArrowUturnLeftIcon className="w-6 h-6 text-[#319795] mr-2" />
           Volver al inicio
         </Link>
