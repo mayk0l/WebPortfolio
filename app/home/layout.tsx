@@ -12,8 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      
-      <body className="dark:bg-stone-900">
+      <body>
         <Providers>
           <ThemeChanger />
           <Navbar />
