@@ -4,7 +4,7 @@ import ProjectsSection from "@/components/ProjectsSection"
 import Head from "next/head"
 
 export const metadata = {
-  title: "Portafolio de Desarrollo Web | Maykol Salgado",
+  title: "Maykol's Portfolio",
   description: "Explora mi portafolio de desarrollo web para descubrir proyectos creativos y soluciones tecnológicas. Soy un desarrollador web con experiencia en diseño responsive, tecnologías front-end y back-end.",
 };
 

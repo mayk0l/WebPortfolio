@@ -18,7 +18,7 @@ const HeroSection = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl text-center"> ¡Hola! Soy</h1>
+          <h1 className="text-3xl font-bold mt-6 md:mt-0 md:text-7xl text-center">   ¡Hola! Soy</h1>
           <h1 className="text-4xl font-bold md:text-7xl">➡  Maykol</h1>
           <p className="text-lg mt-8 mb-6 md:text-2xl">
             Un{" "}

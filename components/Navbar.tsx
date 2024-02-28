@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { useTheme } from "next-themes";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
 import Image from "next/image";
+import Logo from "@/public/logo.jpg"
 
 interface NavItem {
   label: string;
@@ -42,7 +43,7 @@ function Navbar() {
               <div className="container flex items-center space-x-2">
                 <Image
                   className="rounded-full"
-                  src="/logo.jpg"
+                  src={Logo}
                   width={50}
                   height={50}
                   alt="logo"
