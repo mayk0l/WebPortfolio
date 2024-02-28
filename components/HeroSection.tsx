@@ -18,8 +18,8 @@ const HeroSection = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-3xl font-bold mt-6 md:mt-0 md:text-7xl text-center">   ¡Hola! Soy</h1>
-          <h1 className="text-4xl font-bold md:text-7xl">➡  Maykol</h1>
+          <h1 className="text-3xl pl-4 font-bold mt-6 md:mt-0 md:text-7xl text-center">   ¡Hola! soy</h1>
+          <h1 className="text-4xl font-bold md:text-7xl">➡ Maykol</h1>
           <p className="text-lg mt-8 mb-6 md:text-2xl">
             Un{" "}
             <span className="font-semibold text-teal-600">
@@ -27,17 +27,19 @@ const HeroSection = () => {
             </span>
             chileno. Mi pasión es crear soluciones eficientes y personalizadas para ti. Trabajemos juntos para impulsar tu proyecto al éxito.
           </p>
-          <Link
-            to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            Proyectos
-          </Link>
+          <div className="">
+            <Link
+              to="projects"
+              className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Proyectos
+            </Link>
+          </div>
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
